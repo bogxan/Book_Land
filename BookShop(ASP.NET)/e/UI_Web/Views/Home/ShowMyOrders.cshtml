@@ -1,0 +1,28 @@
+﻿@using Services.Abstractions.Dto.Order;
+@model List<OrderDto>;
+@{
+    ViewData["Title"] = "Користувач - виконані замовлення";
+    Model.Reverse();
+}
+<style>
+    body {
+        background-color: #D3E4CD;
+    }
+    .product-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+</style>
+<a asp-action="Index" asp-controller="Home" class="btn btn-success">&larr; На головну</a>
+<h3>Виконані замовлення:</h3>
+<div class="product-list">
+    @foreach (var order in Model)
+    {
+        @if (order.IsCompleted == true)
+        {
+            @await Html.PartialAsync("_OrderCard", order)
+        }
+    }
+</div>

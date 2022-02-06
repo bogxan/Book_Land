@@ -1,0 +1,67 @@
+﻿@using UI_Web.Models.Home;
+@model HomeIndexViewModel;
+@{
+    ViewData["Title"] = "Користувач - головна сторінка";
+}
+<style>
+    body {
+        background-color: #D3E4CD;
+    }
+
+    .product-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+</style>
+@if (Model.Books.Count > 0)
+{
+    <div style="display:flex;flex-direction:row;justify-content:center;">
+        <form method="get" asp-action="FilterByNew" asp-controller="Home">
+            <input type="submit" class="btn btn-success position-relative" style="margin: 10px;" value="Фільтрувати за новими книгами" />
+        </form>
+        <form method="get" asp-action="FilterByAlphabet" asp-controller="Home">
+            <input type="submit" class="btn btn-success position-relative" style="margin: 10px;" value="Фільтрувати за алфавітом" />
+        </form>
+        <form method="get" asp-action="FilterByPriceLow" asp-controller="Home">
+            <input type="submit" class="btn btn-success position-relative" style="margin: 10px;" value="Від дешевих до дорогих" />
+        </form>
+        <form method="get" asp-action="FilterByPriceHigh" asp-controller="Home">
+            <input type="submit" class="btn btn-success position-relative" style="margin: 10px;" value="Від дорогих до дешевих" />
+        </form>
+    </div>
+    if (Model.SrchWrd != null && Model.SrchWrd != "")
+    {
+        <h5>Знайдені книги за заданим пошуковим словом: <u><strong>@Model.SrchWrd</strong></u></h5>
+        <div class="product-list">
+            @foreach (var product in Model.Books)
+            {
+                if (product.Count > 0)
+                {
+                    @await Html.PartialAsync("_BookCard", product)
+                }
+            }
+        </div>
+    }
+    else
+    {
+        <h5><u>Всі книги:</u></h5>
+        <div class="product-list">
+            @foreach (var product in Model.Books)
+            {
+                if (product.Count > 0)
+                {
+                    @await Html.PartialAsync("_BookCard", product)
+                }
+            }
+        </div>
+    }
+}
+else
+{
+<h5><u>Жодної книги не було знайдено за заданим пошуковим словом: @Model.SrchWrd!!!</u></h5>
+    <a asp-action="Index" asp-controller="Home" class="btn btn-success">&larr; На головну</a>
+}
+
+

@@ -1,0 +1,58 @@
+﻿@using Services.Abstractions.Dto.Purchase;
+@using Domain.Entity;
+@using Services.Abstractions.Service;
+@inject IServiceManager  serviceManager;
+@model List<PurchaseDto>;
+@{
+    var prods = Model.GroupBy(p => p.BookId).ToList();
+}
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="margin: 15px;">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Корзина</h5>
+                <button type="button" class="btn btn-dark" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                @if (Model.Count > 0)
+                {
+                    <ul class="list-group">
+                        @foreach (var prod in prods)
+                        {
+                            var pr = await serviceManager.StoreBooksService.GetByIdAsync(prod.Key);
+                            <li style="display:flex; justify-content:space-evenly" class="list-group-item">
+                                Назва книги: @pr.Name
+                                <form action="/home/removeFromCart" method="post">
+                                    <input type="hidden" name="id" value="@prod.Key" />
+                                    <button class="btn btn-dark">-</button>
+                                </form>
+                                @prod.Count()
+                                <form action="/home/addToCart" method="post">
+                                    <input type="hidden" name="id" value="@prod.Key" />
+                                    <button class="btn btn-dark">+</button>
+                                </form>
+                            </li>
+                        }
+                    </ul>
+                }
+                else
+                {
+                    <h3>Товари відсутні</h3>
+                }
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-dark" data-dismiss="modal">Закрити</button>
+                @if (Model.Count > 0)
+                {
+                    <form action="/home/submit" method="get">
+                        <button class="btn btn-dark">Оформити замовлення</button>
+                    </form>
+                }
+            </div>
+        </div>
+    </div>
+</div>

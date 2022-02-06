@@ -1,0 +1,32 @@
+﻿@using UI_Web.Models.Account;
+@using Microsoft.AspNetCore.Identity;
+@using Domain.Entity;
+@inject UserManager<MyUser> userManager;
+@{var user = await userManager.FindByNameAsync(User.Identity.Name.ToString()); }
+<style>
+    body {
+        background-color: #D3E4CD;
+    }
+</style>
+<a asp-action="Index" asp-controller="Home" class="btn btn-success">&larr; На головну</a>
+<div class="form-group">
+    <label class="control-label">Ім'я:</label>
+    <input type="text" value="@user.FirstName" class="form-control" readonly />
+</div>
+<div class="form-group">
+    <label class="control-label">Прізвище:</label>
+    <input type="text" value="@user.LastName" class="form-control" readonly />
+</div>
+<div class="form-group">
+    <label class="control-label">Номер телефону:</label>
+    <input type="text" value="@user.PhoneNumber" class="form-control" readonly />
+</div>
+<div class="form-group">
+    <label class="control-label">Електронна адреса:</label>
+    <input type="text" value="@user.Email" class="form-control" readonly />
+</div>
+<form asp-action="Delete" asp-route-id="@user.Id" method="post">
+    <a class="btn btn-success" asp-action="Edit" asp-route-id="@user.Id">Редагувати</a>
+    <a class="btn btn-success" asp-action="ChangePassword" asp-route-id="@user.Id">Змінити пароль</a>
+    <button type="submit" class="btn btn-success">Видалити аккаунт</button>
+</form>

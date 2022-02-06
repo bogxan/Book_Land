@@ -1,0 +1,118 @@
+﻿@using Services.Abstractions.Dto.Order;
+@model OrderDto;
+@using UI_Web.Models.Account;
+@using Microsoft.AspNetCore.Identity;
+@using Domain.Entity;
+@inject UserManager<MyUser> userManager;
+@{var user = await userManager.FindByIdAsync(Model.MyUserId.ToString());
+    ViewData["Title"] = "Адмін - редагування замовлення";
+}
+<style>
+    body {
+        background-color: #D3E4CD;
+    }
+</style>
+<a asp-action="IndexOrders" asp-controller="Admin" class="btn btn-success">&larr; Назад</a>
+<form asp-action="editOrder" asp-controller="admin" asp-route-id="@Model.Id">
+    <div asp-validation-summary="ModelOnly"></div>
+    <div class="form-group">
+        <label class="control-label">Ім'я':</label>
+        <input type="text" value="@user.FirstName" class="form-control" readonly />
+    </div>
+    <div class="form-group">
+        <label class="control-label">Прізвище:</label>
+        <input type="text" value="@user.LastName" class="form-control" readonly />
+    </div>
+    <div class="form-group">
+        <label class="control-label">Номер телефону:</label>
+        <input type="text" value="@user.PhoneNumber" class="form-control" readonly />
+    </div>
+    <div class="form-group">
+        <label class="control-label">Електронна адреса:</label>
+        <input type="text" value="@user.Email" class="form-control" readonly />
+    </div>
+    <div class="form-group" hidden>
+        <label class="control-label">Id юзера:</label>
+        <input type="text" value="@user.Id" class="form-control" readonly />
+    </div>
+    <div class="form-group" hidden>
+        <label asp-for="MyUserId" class="control-label">Id юзера моделі:</label>
+        <input type="text" asp-for="MyUserId" value="@Model.MyUserId" class="form-control" readonly />
+    </div>
+    <div class="form-group">
+        <label asp-for="Id" class="control-label">Id:</label>
+        <input type="text" asp-for="Id" value="@Model.Id" class="form-control" readonly />
+    </div>
+    <div class="form-group">
+        <label asp-for="Price" class="control-label">Сума:</label>
+        <input type="text" asp-for="Price" value="@Model.Price" class="form-control" readonly />
+    </div>
+    <div class="form-group">
+        <label asp-for="CountBooks" class="control-label">Кількість книг в замовленні:</label>
+        <input type="text" asp-for="CountBooks" value="@Model.CountBooks" class="form-control" readonly />
+    </div>
+    <div class="form-group">
+        <label asp-for="IsCompleted" class="control-label">Виконано:</label>
+        <input type="text" asp-for="IsCompleted" value="@Model.IsCompleted" class="form-control" readonly />
+    </div>
+    <div class="form-group">
+        <label asp-for="CreatedAt" class="control-label">Дата оформлення замовлення:</label>
+        <input type="text" asp-for="CreatedAt" value="@Model.CreatedAt" class="form-control" readonly />
+    </div>
+    <div class="form-group">
+        <label asp-for="Adress" class="control-label">Адреса:</label>
+        <ol>
+            Умови:
+            <li>
+                обов'язково ввести
+            </li>
+            <li>
+                довжина: 3 - 50 символів
+            </li>
+            <li>
+                тільки українські літери та спеціальні символи( -,./)
+            </li>
+        </ol>
+        <input type="text" asp-for="Adress" class="form-control" />
+        <span asp-validation-for="Adress"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="City" class="control-label">Місто:</label>
+        <ol>
+            Умови:
+            <li>
+                обов'язково ввести
+            </li>
+            <li>
+                довжина: 3 - 50 символів
+            </li>
+            <li>
+                тільки українські літери та спеціальні символи( -)
+            </li>
+        </ol>
+        <input type="text" asp-for="City" class="form-control" />
+        <span asp-validation-for="City"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="PostalCode" class="control-label">Поштовий індекс:</label>
+        <ol>
+            Умови:
+            <li>
+                обов'язково ввести
+            </li>
+            <li>
+                довжина: 5 символів
+            </li>
+        </ol>
+        <input type="number" asp-for="PostalCode" class="form-control" />
+        <span asp-validation-for="PostalCode"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Редагувати" class="btn btn-success" />
+    </div>
+</form>
+@section scripts{
+
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

@@ -1,0 +1,19 @@
+﻿@using Services.Abstractions.Dto.Order;
+@model OrderDto;
+@using UI_Web.Models.Account;
+@using Microsoft.AspNetCore.Identity;
+@using Domain.Entity;
+@inject UserManager<MyUser> userManager;
+@{var user = await userManager.FindByNameAsync(User.Identity.Name.ToString()); }
+<div class="card" style="width: 28rem; margin: 15px; background-color: #FEF5ED;">
+    <div class="card-body">
+        <h6 class="card-text">Ім'я': @user.FirstName</h6>
+        <h6 class="card-text">Прізвище: @user.LastName</h6>
+        <h6 class="card-text">Номер телефону: @user.PhoneNumber</h6>
+        <h6 class="card-text">Електронна адреса: @user.Email</h6>
+        <h6 class="card-text">Сума: @Model.Price</h6>
+        <h6 class="card-text">Дата оформлення замовлення: @Model.CreatedAt</h6>
+        <a href="/Home/infoOrder?id=@Model.Id" class="btn btn-success">Детальніше</a>
+    </div>
+</div>
+

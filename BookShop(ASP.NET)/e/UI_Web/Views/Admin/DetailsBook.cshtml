@@ -1,0 +1,32 @@
+﻿@using Services.Abstractions.Dto.StoreBook;
+@model StoreBookDto;
+@{
+    ViewData["Title"] = "Адмін - деталі книги";
+}
+<style>
+    body {
+        background-color: #D3E4CD;
+    }
+</style>
+<div class="card" style="width: 28rem; margin: 15px; background-color: #FEF5ED;">
+    <div class="card-body">
+        <h4 class="card-title">Id: @Model.Id</h4>
+        <h5 class="card-text">Назва книги: @Model.Name</h5>
+        <h6 class="card-text">Автор(-и): @Model.Authors</h6>
+        <h6 class="card-text">Жанр: @Model.Genre</h6>
+        <h6 class="card-text">Видавництво: @Model.PublishOffice</h6>
+        <h6 class="card-text">Рік видання: @Model.PublishYear</h6>
+        <h6 class="card-text">Ціна: @Model.Cost</h6>
+        <h6 class="card-text">Кількість екземплярів в магазині: @Model.Count</h6>
+        <div style="display:flex; justify-content:center">
+            <form action="/admin/deleteBook" method="post" style="margin: 5px;">
+                <input type="hidden" name="id" value="@Model.Id" />
+                <button class="btn btn-success">Видалити</button>
+            </form>
+            <form action="/admin/editBook" method="get" style="margin: 5px;">
+                <input type="hidden" name="id" value="@Model.Id" />
+                <button class="btn btn-success">Редагувати</button>
+            </form>
+        </div>
+    </div>
+</div>

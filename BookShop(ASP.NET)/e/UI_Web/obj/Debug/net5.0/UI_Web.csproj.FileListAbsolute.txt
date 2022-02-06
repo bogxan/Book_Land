@@ -1,0 +1,414 @@
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\appsettings.json
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\UI_Web.exe
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\UI_Web.deps.json
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\UI_Web.runtimeconfig.json
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\UI_Web.runtimeconfig.dev.json
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\UI_Web.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\ref\UI_Web.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\UI_Web.pdb
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\UI_Web.Views.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\UI_Web.Views.pdb
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\obj\Debug\net5.0\UI_Web.csproj.AssemblyReference.cache
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\obj\Debug\net5.0\UI_Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\obj\Debug\net5.0\UI_Web.AssemblyInfoInputs.cache
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\obj\Debug\net5.0\UI_Web.AssemblyInfo.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\obj\Debug\net5.0\UI_Web.csproj.CoreCompileInputs.cache
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\obj\Debug\net5.0\UI_Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\obj\Debug\net5.0\UI_Web.RazorAssemblyInfo.cache
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\obj\Debug\net5.0\UI_Web.RazorAssemblyInfo.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\obj\Debug\net5.0\staticwebassets\UI_Web.StaticWebAssets.Manifest.cache
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\obj\Debug\net5.0\staticwebassets\UI_Web.StaticWebAssets.xml
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\obj\Debug\net5.0\scopedcss\bundle\UI_Web.styles.css
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\obj\Debug\net5.0\UI_Web.TagHelpers.input.cache
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\obj\Debug\net5.0\UI_Web.TagHelpers.output.cache
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\obj\Debug\net5.0\UI_Web.RazorCoreGenerate.cache
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\obj\Debug\net5.0\UI_Web.RazorTargetAssemblyInfo.cache
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\obj\Debug\net5.0\UI_Web.RazorTargetAssemblyInfo.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\obj\Debug\net5.0\UI_Web.Views.pdb
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\obj\Debug\net5.0\UI_Web.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\obj\Debug\net5.0\ref\UI_Web.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\obj\Debug\net5.0\UI_Web.pdb
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\obj\Debug\net5.0\UI_Web.genruntimeconfig.cache
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\obj\Debug\net5.0\UI_Web.csproj.CopyComplete
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\Domain.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\Persistence.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\Services.Abstractions.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\Services.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\Domain.pdb
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\Services.Abstractions.pdb
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\Services.pdb
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\bin\Debug\net5.0\Persistence.pdb
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\obj\Debug\net5.0\Razor\Views\Home\Info.cshtml.g.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\obj\Debug\net5.0\Razor\Views\Shared\_Cart.cshtml.g.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\obj\Debug\net5.0\Razor\Views\Admin\Index.cshtml.g.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\obj\Debug\net5.0\Razor\Views\Admin\Create.cshtml.g.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\obj\Debug\net5.0\Razor\Views\Admin\Details.cshtml.g.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\obj\Debug\net5.0\Razor\Views\Home\_BookCard.cshtml.g.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\obj\Debug\net5.0\Razor\Views\Admin\_Book.cshtml.g.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\obj\Debug\net5.0\Razor\Views\Admin\Edit.cshtml.g.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\UI_Web\obj\Debug\net5.0\Razor\Views\Home\Submit.cshtml.g.cs
+D:\Examen\UI_Web\bin\Debug\net5.0\appsettings.Development.json
+D:\Examen\UI_Web\bin\Debug\net5.0\appsettings.json
+D:\Examen\UI_Web\bin\Debug\net5.0\UI_Web.exe
+D:\Examen\UI_Web\bin\Debug\net5.0\UI_Web.deps.json
+D:\Examen\UI_Web\bin\Debug\net5.0\UI_Web.runtimeconfig.json
+D:\Examen\UI_Web\bin\Debug\net5.0\UI_Web.runtimeconfig.dev.json
+D:\Examen\UI_Web\bin\Debug\net5.0\UI_Web.dll
+D:\Examen\UI_Web\bin\Debug\net5.0\ref\UI_Web.dll
+D:\Examen\UI_Web\bin\Debug\net5.0\UI_Web.pdb
+D:\Examen\UI_Web\bin\Debug\net5.0\UI_Web.Views.dll
+D:\Examen\UI_Web\bin\Debug\net5.0\UI_Web.Views.pdb
+D:\Examen\UI_Web\bin\Debug\net5.0\AutoMapper.dll
+D:\Examen\UI_Web\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Examen\UI_Web\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Examen\UI_Web\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Examen\UI_Web\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\Examen\UI_Web\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\Examen\UI_Web\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Examen\UI_Web\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Examen\UI_Web\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Examen\UI_Web\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Examen\UI_Web\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+D:\Examen\UI_Web\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Examen\UI_Web\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\Examen\UI_Web\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Examen\UI_Web\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\Examen\UI_Web\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\Examen\UI_Web\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Examen\UI_Web\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\Examen\UI_Web\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\Examen\UI_Web\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\Examen\UI_Web\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\Examen\UI_Web\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Examen\UI_Web\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\Examen\UI_Web\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\Examen\UI_Web\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Examen\UI_Web\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Examen\UI_Web\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Examen\UI_Web\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Examen\UI_Web\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Examen\UI_Web\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Examen\UI_Web\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Examen\UI_Web\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Examen\UI_Web\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Examen\UI_Web\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Examen\UI_Web\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Examen\UI_Web\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Examen\UI_Web\bin\Debug\net5.0\Domain.dll
+D:\Examen\UI_Web\bin\Debug\net5.0\Persistence.dll
+D:\Examen\UI_Web\bin\Debug\net5.0\Services.Abstractions.dll
+D:\Examen\UI_Web\bin\Debug\net5.0\Services.dll
+D:\Examen\UI_Web\bin\Debug\net5.0\Domain.pdb
+D:\Examen\UI_Web\bin\Debug\net5.0\Services.Abstractions.pdb
+D:\Examen\UI_Web\bin\Debug\net5.0\Services.pdb
+D:\Examen\UI_Web\bin\Debug\net5.0\Persistence.pdb
+D:\Examen\UI_Web\obj\Debug\net5.0\UI_Web.csproj.AssemblyReference.cache
+D:\Examen\UI_Web\obj\Debug\net5.0\UI_Web.GeneratedMSBuildEditorConfig.editorconfig
+D:\Examen\UI_Web\obj\Debug\net5.0\UI_Web.AssemblyInfoInputs.cache
+D:\Examen\UI_Web\obj\Debug\net5.0\UI_Web.AssemblyInfo.cs
+D:\Examen\UI_Web\obj\Debug\net5.0\UI_Web.csproj.CoreCompileInputs.cache
+D:\Examen\UI_Web\obj\Debug\net5.0\UI_Web.MvcApplicationPartsAssemblyInfo.cache
+D:\Examen\UI_Web\obj\Debug\net5.0\UI_Web.RazorAssemblyInfo.cache
+D:\Examen\UI_Web\obj\Debug\net5.0\UI_Web.RazorAssemblyInfo.cs
+D:\Examen\UI_Web\obj\Debug\net5.0\staticwebassets\UI_Web.StaticWebAssets.Manifest.cache
+D:\Examen\UI_Web\obj\Debug\net5.0\staticwebassets\UI_Web.StaticWebAssets.xml
+D:\Examen\UI_Web\obj\Debug\net5.0\scopedcss\bundle\UI_Web.styles.css
+D:\Examen\UI_Web\obj\Debug\net5.0\UI_Web.TagHelpers.input.cache
+D:\Examen\UI_Web\obj\Debug\net5.0\UI_Web.TagHelpers.output.cache
+D:\Examen\UI_Web\obj\Debug\net5.0\UI_Web.RazorCoreGenerate.cache
+D:\Examen\UI_Web\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
+D:\Examen\UI_Web\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
+D:\Examen\UI_Web\obj\Debug\net5.0\Razor\Views\Admin\Create.cshtml.g.cs
+D:\Examen\UI_Web\obj\Debug\net5.0\Razor\Views\Admin\Index.cshtml.g.cs
+D:\Examen\UI_Web\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+D:\Examen\UI_Web\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\Examen\UI_Web\obj\Debug\net5.0\Razor\Views\Home\Submit.cshtml.g.cs
+D:\Examen\UI_Web\obj\Debug\net5.0\Razor\Views\Home\_BookCard.cshtml.g.cs
+D:\Examen\UI_Web\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+D:\Examen\UI_Web\obj\Debug\net5.0\Razor\Views\Shared\_Cart.cshtml.g.cs
+D:\Examen\UI_Web\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Examen\UI_Web\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Examen\UI_Web\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Examen\UI_Web\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Examen\UI_Web\obj\Debug\net5.0\UI_Web.RazorTargetAssemblyInfo.cache
+D:\Examen\UI_Web\obj\Debug\net5.0\UI_Web.RazorTargetAssemblyInfo.cs
+D:\Examen\UI_Web\obj\Debug\net5.0\UI_Web.Views.pdb
+D:\Examen\UI_Web\obj\Debug\net5.0\UI_Web.csproj.CopyComplete
+D:\Examen\UI_Web\obj\Debug\net5.0\UI_Web.dll
+D:\Examen\UI_Web\obj\Debug\net5.0\ref\UI_Web.dll
+D:\Examen\UI_Web\obj\Debug\net5.0\UI_Web.pdb
+D:\Examen\UI_Web\obj\Debug\net5.0\UI_Web.genruntimeconfig.cache
+D:\Examen\UI_Web\obj\Debug\net5.0\Razor\Views\Admin\DetailsBook.cshtml.g.cs
+D:\Examen\UI_Web\obj\Debug\net5.0\Razor\Views\Admin\DetailsOrder.cshtml.g.cs
+D:\Examen\UI_Web\obj\Debug\net5.0\Razor\Views\Admin\EditBook.cshtml.g.cs
+D:\Examen\UI_Web\obj\Debug\net5.0\Razor\Views\Admin\EditOrder.cshtml.g.cs
+D:\Examen\UI_Web\obj\Debug\net5.0\Razor\Views\Admin\IndexBooks.cshtml.g.cs
+D:\Examen\UI_Web\obj\Debug\net5.0\Razor\Views\Admin\IndexOrders.cshtml.g.cs
+D:\Examen\UI_Web\obj\Debug\net5.0\Razor\Views\Home\ShowMyOrders.cshtml.g.cs
+D:\Examen\UI_Web\obj\Debug\net5.0\Razor\Views\Home\_OrderCard.cshtml.g.cs
+D:\Examen\UI_Web\obj\Debug\net5.0\Razor\Views\Home\InfoBook.cshtml.g.cs
+D:\Examen\UI_Web\obj\Debug\net5.0\Razor\Views\Home\InfoOrder.cshtml.g.cs
+D:\e\UI_Web\obj\Debug\net5.0\UI_Web.csproj.AssemblyReference.cache
+D:\e\UI_Web\obj\Debug\net5.0\UI_Web.GeneratedMSBuildEditorConfig.editorconfig
+D:\e\UI_Web\obj\Debug\net5.0\UI_Web.AssemblyInfoInputs.cache
+D:\e\UI_Web\obj\Debug\net5.0\UI_Web.AssemblyInfo.cs
+D:\e\UI_Web\obj\Debug\net5.0\UI_Web.csproj.CoreCompileInputs.cache
+D:\e\UI_Web\obj\Debug\net5.0\UI_Web.MvcApplicationPartsAssemblyInfo.cache
+D:\e\UI_Web\obj\Debug\net5.0\UI_Web.RazorAssemblyInfo.cache
+D:\e\UI_Web\obj\Debug\net5.0\UI_Web.RazorAssemblyInfo.cs
+D:\e\UI_Web\obj\Debug\net5.0\UI_Web.dll
+D:\e\UI_Web\obj\Debug\net5.0\ref\UI_Web.dll
+D:\e\UI_Web\obj\Debug\net5.0\UI_Web.pdb
+D:\e\UI_Web\bin\Debug\net5.0\appsettings.Development.json
+D:\e\UI_Web\bin\Debug\net5.0\appsettings.json
+D:\e\UI_Web\bin\Debug\net5.0\UI_Web.exe
+D:\e\UI_Web\bin\Debug\net5.0\UI_Web.deps.json
+D:\e\UI_Web\bin\Debug\net5.0\UI_Web.runtimeconfig.json
+D:\e\UI_Web\bin\Debug\net5.0\UI_Web.runtimeconfig.dev.json
+D:\e\UI_Web\bin\Debug\net5.0\UI_Web.dll
+D:\e\UI_Web\bin\Debug\net5.0\ref\UI_Web.dll
+D:\e\UI_Web\bin\Debug\net5.0\UI_Web.pdb
+D:\e\UI_Web\bin\Debug\net5.0\UI_Web.Views.dll
+D:\e\UI_Web\bin\Debug\net5.0\UI_Web.Views.pdb
+D:\e\UI_Web\bin\Debug\net5.0\AutoMapper.dll
+D:\e\UI_Web\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\e\UI_Web\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\e\UI_Web\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\e\UI_Web\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\e\UI_Web\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\e\UI_Web\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\e\UI_Web\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\e\UI_Web\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\e\UI_Web\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\e\UI_Web\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+D:\e\UI_Web\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+D:\e\UI_Web\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\e\UI_Web\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\e\UI_Web\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\e\UI_Web\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\e\UI_Web\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\e\UI_Web\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\e\UI_Web\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\e\UI_Web\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\e\UI_Web\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\e\UI_Web\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\e\UI_Web\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\e\UI_Web\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\e\UI_Web\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\e\UI_Web\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\e\UI_Web\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\e\UI_Web\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\e\UI_Web\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\e\UI_Web\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\e\UI_Web\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\e\UI_Web\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\e\UI_Web\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\e\UI_Web\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\e\UI_Web\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\e\UI_Web\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\e\UI_Web\bin\Debug\net5.0\Domain.dll
+D:\e\UI_Web\bin\Debug\net5.0\Persistence.dll
+D:\e\UI_Web\bin\Debug\net5.0\Services.Abstractions.dll
+D:\e\UI_Web\bin\Debug\net5.0\Services.dll
+D:\e\UI_Web\bin\Debug\net5.0\Domain.pdb
+D:\e\UI_Web\bin\Debug\net5.0\Services.Abstractions.pdb
+D:\e\UI_Web\bin\Debug\net5.0\Services.pdb
+D:\e\UI_Web\bin\Debug\net5.0\Persistence.pdb
+D:\e\UI_Web\obj\Debug\net5.0\staticwebassets\UI_Web.StaticWebAssets.Manifest.cache
+D:\e\UI_Web\obj\Debug\net5.0\staticwebassets\UI_Web.StaticWebAssets.xml
+D:\e\UI_Web\obj\Debug\net5.0\scopedcss\bundle\UI_Web.styles.css
+D:\e\UI_Web\obj\Debug\net5.0\UI_Web.TagHelpers.input.cache
+D:\e\UI_Web\obj\Debug\net5.0\UI_Web.TagHelpers.output.cache
+D:\e\UI_Web\obj\Debug\net5.0\UI_Web.RazorCoreGenerate.cache
+D:\e\UI_Web\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
+D:\e\UI_Web\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
+D:\e\UI_Web\obj\Debug\net5.0\Razor\Views\Admin\Create.cshtml.g.cs
+D:\e\UI_Web\obj\Debug\net5.0\Razor\Views\Admin\DetailsBook.cshtml.g.cs
+D:\e\UI_Web\obj\Debug\net5.0\Razor\Views\Admin\DetailsOrder.cshtml.g.cs
+D:\e\UI_Web\obj\Debug\net5.0\Razor\Views\Admin\EditBook.cshtml.g.cs
+D:\e\UI_Web\obj\Debug\net5.0\Razor\Views\Admin\EditOrder.cshtml.g.cs
+D:\e\UI_Web\obj\Debug\net5.0\Razor\Views\Admin\Index.cshtml.g.cs
+D:\e\UI_Web\obj\Debug\net5.0\Razor\Views\Admin\IndexBooks.cshtml.g.cs
+D:\e\UI_Web\obj\Debug\net5.0\Razor\Views\Admin\IndexOrders.cshtml.g.cs
+D:\e\UI_Web\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+D:\e\UI_Web\obj\Debug\net5.0\Razor\Views\Home\InfoBook.cshtml.g.cs
+D:\e\UI_Web\obj\Debug\net5.0\Razor\Views\Home\InfoOrder.cshtml.g.cs
+D:\e\UI_Web\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\e\UI_Web\obj\Debug\net5.0\Razor\Views\Home\ShowMyOrders.cshtml.g.cs
+D:\e\UI_Web\obj\Debug\net5.0\Razor\Views\Home\Submit.cshtml.g.cs
+D:\e\UI_Web\obj\Debug\net5.0\Razor\Views\Home\_BookCard.cshtml.g.cs
+D:\e\UI_Web\obj\Debug\net5.0\Razor\Views\Home\_OrderCard.cshtml.g.cs
+D:\e\UI_Web\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+D:\e\UI_Web\obj\Debug\net5.0\Razor\Views\Shared\_Cart.cshtml.g.cs
+D:\e\UI_Web\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\e\UI_Web\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\e\UI_Web\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+D:\e\UI_Web\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+D:\e\UI_Web\obj\Debug\net5.0\UI_Web.RazorTargetAssemblyInfo.cache
+D:\e\UI_Web\obj\Debug\net5.0\UI_Web.RazorTargetAssemblyInfo.cs
+D:\e\UI_Web\obj\Debug\net5.0\UI_Web.Views.pdb
+D:\e\UI_Web\obj\Debug\net5.0\UI_Web.csproj.CopyComplete
+D:\e\UI_Web\obj\Debug\net5.0\UI_Web.genruntimeconfig.cache
+D:\e\UI_Web\obj\Debug\net5.0\Razor\Views\Home\ShowMyActiveOrders.cshtml.g.cs
+D:\e\UI_Web\bin\Debug\net5.0\Castle.Core.dll
+D:\e\UI_Web\bin\Debug\net5.0\MockQueryable.Core.dll
+D:\e\UI_Web\bin\Debug\net5.0\Moq.dll
+D:\e\UI_Web\bin\Debug\net5.0\Moq.EntityFrameworkCore.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\appsettings.json
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\UI_Web.exe
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\UI_Web.deps.json
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\UI_Web.runtimeconfig.json
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\UI_Web.runtimeconfig.dev.json
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\UI_Web.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\ref\UI_Web.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\UI_Web.pdb
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\UI_Web.Views.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\UI_Web.Views.pdb
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\Castle.Core.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\MockQueryable.Core.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\Moq.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\Moq.EntityFrameworkCore.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\Domain.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\Persistence.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\Services.Abstractions.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\Services.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\Domain.pdb
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\Services.Abstractions.pdb
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\Services.pdb
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\bin\Debug\net5.0\Persistence.pdb
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\UI_Web.csproj.AssemblyReference.cache
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\UI_Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\UI_Web.AssemblyInfoInputs.cache
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\UI_Web.AssemblyInfo.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\UI_Web.csproj.CoreCompileInputs.cache
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\UI_Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\UI_Web.RazorAssemblyInfo.cache
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\UI_Web.RazorAssemblyInfo.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\staticwebassets\UI_Web.StaticWebAssets.Manifest.cache
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\staticwebassets\UI_Web.StaticWebAssets.xml
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\scopedcss\bundle\UI_Web.styles.css
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\UI_Web.TagHelpers.input.cache
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\UI_Web.TagHelpers.output.cache
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\UI_Web.RazorCoreGenerate.cache
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\Razor\Views\Admin\Create.cshtml.g.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\Razor\Views\Admin\DetailsBook.cshtml.g.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\Razor\Views\Admin\DetailsOrder.cshtml.g.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\Razor\Views\Admin\EditBook.cshtml.g.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\Razor\Views\Admin\EditOrder.cshtml.g.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\Razor\Views\Admin\IndexOrders.cshtml.g.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\Razor\Views\Home\InfoBook.cshtml.g.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\Razor\Views\Home\InfoOrder.cshtml.g.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\Razor\Views\Home\ShowMyActiveOrders.cshtml.g.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\Razor\Views\Home\ShowMyOrders.cshtml.g.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\Razor\Views\Home\Submit.cshtml.g.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\Razor\Views\Home\_BookCard.cshtml.g.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\Razor\Views\Home\_OrderCard.cshtml.g.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\Razor\Views\Shared\_Cart.cshtml.g.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\UI_Web.RazorTargetAssemblyInfo.cache
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\UI_Web.RazorTargetAssemblyInfo.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\UI_Web.Views.pdb
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\UI_Web.csproj.CopyComplete
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\UI_Web.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\ref\UI_Web.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\UI_Web.pdb
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\UI_Web.genruntimeconfig.cache
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\Razor\Views\Admin\Index.cshtml.g.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\Razor\Views\Home\MyError.cshtml.g.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\Razor\Views\Users\Edit.cshtml.g.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\Razor\Views\Users\Index.cshtml.g.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\Razor\Views\Users\ChangePassword.cshtml.g.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\Razor\Views\Users\MyError.cshtml.g.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\Razor\Views\Account\MyError.cshtml.g.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\UI_Web\obj\Debug\net5.0\Razor\Views\Admin\MyError.cshtml.g.cs

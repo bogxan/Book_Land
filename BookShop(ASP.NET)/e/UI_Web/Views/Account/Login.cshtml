@@ -1,0 +1,49 @@
+﻿@model UI_Web.Models.Account.LoginViewModel
+<style>
+    body {
+        background-color: #D3E4CD;
+    }
+</style>
+<a asp-action="Index" asp-controller="Home" class="btn btn-success">&larr; На головну сторінку</a>
+<h2>Логін:</h2>
+<form method="post" asp-controller="Account" asp-action="Login"
+      asp-route-returnUrl="@Model.ReturnUrl">
+    <div asp-validation-summary="ModelOnly"></div>
+    <div>
+        <label asp-for="Email"></label><br />
+        <ol>
+            Умови:
+            <li>
+                обов'язково ввести
+            </li>
+            <li>
+                довжина: 10 - 40 символів
+            </li>
+            <li>
+                тільки маленькі латтнські літери, цифри та спеціальні символи(_-)
+            </li>
+        </ol>
+        <input asp-for="Email" />
+        <span asp-validation-for="Email"></span>
+    </div>
+    <div>
+        <label asp-for="Password"></label><br />
+        <ol>
+            Умови:
+            <li>
+                обов'язково ввести
+            </li>
+            <li>
+                довжина: 6 - 20 символів
+            </li>
+            <li>
+                тільки великі та малі латинські літери, цифри
+            </li>
+        </ol>
+        <input asp-for="Password" />
+        <span asp-validation-for="Password"></span>
+    </div>
+    <div style="margin-top: 20px;">
+        <input type="submit" class="btn btn-success" value="Login" />
+    </div>
+</form>

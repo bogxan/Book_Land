@@ -1,0 +1,84 @@
+﻿@model UI_Web.Models.Home.EditUserViewModel;
+@using UI_Web.Models.Account;
+@using Microsoft.AspNetCore.Identity;
+@using Domain.Entity;
+@inject UserManager<MyUser> userManager;
+@{var user = await userManager.FindByNameAsync(User.Identity.Name.ToString()); }
+<style>
+    body {
+        background-color: #D3E4CD;
+    }
+</style>
+<a asp-action="Index" asp-controller="Users" class="btn btn-success">&larr; Назад</a>
+<h2>Редагування:</h2>
+<form asp-action="Edit" asp-controller="Users" asp-route-id="@Model.Id">
+    <div asp-validation-summary="ModelOnly"></div>
+    <div hidden>
+        <label asp-for="Email"></label><br />
+        <input asp-for="Email" value="@user.Email" readonly />
+        <span asp-validation-for="Email"></span>
+    </div>
+    <div hidden>
+        <label asp-for="Password"></label><br />
+        <input asp-for="Password" value="@user.Password" readonly />
+        <span asp-validation-for="Password"></span>
+    </div>
+    <div>
+        <label asp-for="FirstName"></label><br />
+        <ol>
+            Умови:
+            <li>
+                обов'язково ввести
+            </li>
+            <li>
+                довжина: 2 - 15 символів
+            </li>
+            <li>
+                тільки українські літери та спеціальні символи( -)
+            </li>
+        </ol>
+        <input asp-for="FirstName" value="@Model.FirstName" />
+        <span asp-validation-for="FirstName"></span>
+    </div>
+    <div>
+        <label asp-for="LastName"></label><br />
+        <ol>
+            Умови:
+            <li>
+                обов'язково ввести
+            </li>
+            <li>
+                довжина: 2 - 15 символів
+            </li>
+            <li>
+                тільки українські літери та спеціальні символи( -)
+            </li>
+        </ol>
+        <input asp-for="LastName" value="@Model.LastName" />
+        <span asp-validation-for="LastName"></span>
+    </div>
+    <div>
+        <label asp-for="PhoneNumber"></label><br />
+        <ol>
+            Умови:
+            <li>
+                обов'язково ввести
+            </li>
+            <li>
+                довжина: 13 символів
+            </li>
+            <li>
+                тільки такий формат номеру телефону: +380XXXXXXXXX
+            </li>
+        </ol>
+        <input asp-for="PhoneNumber" value="@Model.PhoneNumber" />
+        <span asp-validation-for="PhoneNumber"></span>
+    </div>
+    <div style="margin-top: 20px;">
+        <input type="submit" class="btn btn-success" value="Редагувати" />
+    </div>
+</form>
+@section scripts{
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

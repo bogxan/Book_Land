@@ -1,0 +1,49 @@
+﻿@using Services.Abstractions.Dto.Order;
+@model OrderDto;
+@using UI_Web.Models.Account;
+@using Microsoft.AspNetCore.Identity;
+@using Domain.Entity;
+@inject UserManager<MyUser> userManager;
+@{var user = await userManager.FindByNameAsync(User.Identity.Name.ToString()); }
+@{
+    ViewData["Title"] = "Користувач - деталі замовлення";
+}
+<style>
+    body {
+        background-color: #D3E4CD;
+    }
+</style>
+@if (Model.IsCompleted == false)
+{
+    <a asp-action="ShowMyActiveOrders" asp-controller="Home" class="btn btn-success">&larr; Назад</a>
+    <div class="card" style="width: 28rem; background-color: #FEF5ED; margin:5px;">
+        <div class="card-body">
+            <h6 class="card-text">Ім'я: @user.FirstName</h6>
+            <h6 class="card-text">Прізвище: @user.LastName</h6>
+            <h6 class="card-text">Номер телефону: @user.PhoneNumber</h6>
+            <h6 class="card-text">Електронна адреса: @user.Email</h6>
+            <h6 class="card-text">Дата оформлення замовлення: @Model.CreatedAt</h6>
+            <h6 class="card-text">Сума: @Model.Price</h6>
+            <h6 class="card-text">Адреса: @Model.Adress</h6>
+            <h6 class="card-text">Місто: @Model.City</h6>
+            <h6 class="card-text">Поштовий індекс: @Model.PostalCode</h6>
+        </div>
+    </div>
+}
+else
+{
+    <a asp-action="ShowMyOrders" asp-controller="Home" class="btn btn-success">&larr; Назад</a>
+    <div class="card" style="width: 28rem; background-color: #FEF5ED; margin: 5px;">
+        <div class="card-body">
+            <h6 class="card-text">Ім'я: @user.FirstName</h6>
+            <h6 class="card-text">Прізвище: @user.LastName</h6>
+            <h6 class="card-text">Номер телефону: @user.PhoneNumber</h6>
+            <h6 class="card-text">Електронна адреса: @user.Email</h6>
+            <h6 class="card-text">Дата оформлення замовлення: @Model.CreatedAt</h6>
+            <h6 class="card-text">Сума: @Model.Price</h6>
+            <h6 class="card-text">Адреса: @Model.Adress</h6>
+            <h6 class="card-text">Місто: @Model.City</h6>
+            <h6 class="card-text">Поштовий індекс: @Model.PostalCode</h6>
+        </div>
+    </div>
+}

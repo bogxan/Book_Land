@@ -1,0 +1,116 @@
+﻿@model UI_Web.Models.Account.RegisterViewModel
+<style>
+    body {
+        background-color: #D3E4CD;
+    }
+</style>
+<a asp-action="Index" asp-controller="Home" class="btn btn-success">&larr; На головну сторінку</a>
+<h2>Реєстрація:</h2>
+<form method="post">
+    <div asp-validation-summary="ModelOnly"></div>
+    <div>
+        <label asp-for="FirstName"></label><br />
+        <ol>
+            Умови:
+            <li>
+                обов'язково ввести
+            </li>
+            <li>
+                довжина: 2 - 15 символів
+            </li>
+            <li>
+                тільки українські літери, цифри та спеціальні символи( -)
+            </li>
+        </ol>
+        <input asp-for="FirstName" />
+        <span asp-validation-for="FirstName"></span>
+    </div>
+    <div>
+        <label asp-for="LastName"></label><br />
+        <ol>
+            Умови:
+            <li>
+                обов'язково ввести
+            </li>
+            <li>
+                довжина: 2 - 15 символів
+            </li>
+            <li>
+                тільки українські літери, цифри та спеціальні символи( -)
+            </li>
+        </ol>
+        <input asp-for="LastName" />
+        <span asp-validation-for="LastName"></span>
+    </div>
+    <div>
+        <label asp-for="PhoneNumber"></label><br />
+        <ol>
+            Умови:
+            <li>
+                обов'язково ввести
+            </li>
+            <li>
+                довжина: 13 символів
+            </li>
+            <li>
+                тільки такий формат номеру телефону: +380XXXXXXXXX
+            </li>
+        </ol>
+        <input asp-for="PhoneNumber" />
+        <span asp-validation-for="PhoneNumber"></span>
+    </div>
+    <div>
+        <label asp-for="Email"></label><br />
+        <ol>
+            Умови:
+            <li>
+                обов'язково ввести
+            </li>
+            <li>
+                довжина: 10 - 40 символів
+            </li>
+            <li>
+                тільки маленькі латтнські літери, цифри та спеціальні символи(_-)
+            </li>
+        </ol>
+        <input asp-for="Email" />
+        <span asp-validation-for="Email"></span>
+    </div>
+    <div>
+        <label asp-for="Password"></label><br />
+        <ol>
+            Умови:
+            <li>
+                обов'язково ввести
+            </li>
+            <li>
+                довжина: 6 - 20 символів
+            </li>
+            <li>
+                тільки великі та малі латинські літери, цифри
+            </li>
+        </ol>
+        <input asp-for="Password" />
+        <span asp-validation-for="Password"></span>
+    </div>
+    <div>
+        <label asp-for="PasswordConfirm"></label><br />
+        <ol>
+            Умови:
+            <li>
+                обов'язково ввести
+            </li>
+            <li>
+                довжина: 6 - 20 символів
+            </li>
+            <li>
+                тільки великі та малі латинські літери, цифри
+            </li>
+        </ol>
+        <input asp-for="PasswordConfirm" />
+        <span asp-validation-for="PasswordConfirm"></span>
+    </div>
+    <div style="margin-top: 20px;">
+        <input type="submit" class="btn btn-success" value="Registration" />
+    </div>
+</form>

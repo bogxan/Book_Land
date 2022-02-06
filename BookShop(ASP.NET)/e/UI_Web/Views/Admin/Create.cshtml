@@ -1,0 +1,144 @@
+﻿@model Services.Abstractions.Dto.StoreBook.CreateStoreBookDto;
+<style>
+    body {
+        background-color: #D3E4CD;
+    }
+</style>
+<a asp-action="Index" asp-controller="Admin" class="btn btn-success">&larr; Повернутися на головну сторінку</a>
+<form asp-action="create" asp-controller="admin">
+    <div>
+        <div asp-validation-summary="ModelOnly"></div>
+        <div class="form-group">
+            <label asp-for="Name" class="control-label">Назва книги:</label>
+            <ol>
+                Умови:
+                <li>
+                    обов'язково ввести
+                </li>
+                <li>
+                    довжина: 3 - 50 символів
+                </li>
+                <li>
+                    тільки українські літери, цифри та спеціальні символи( -():+.,!)
+                </li>
+            </ol>
+            <input type="text" asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Genre" class="control-label">Жанр:</label>
+            <ol>
+                Умови:
+                <li>
+                    обов'язково ввести
+                </li>
+                <li>
+                    довжина: 3 - 50 символів
+                </li>
+                <li>
+                    тільки українські літери, цифри та спеціальні символи( -)
+                </li>
+            </ol>
+            <input type="text" asp-for="Genre" class="form-control" />
+            <span asp-validation-for="Genre"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Authors" class="control-label">Автор(-и):</label>
+            <ol>
+                Умови:
+                <li>
+                    обов'язково ввести
+                </li>
+                <li>
+                    довжина: 3 - 50 символів
+                </li>
+                <li>
+                    тільки українські літери, цифри та спеціальні символи( -,)
+                </li>
+            </ol>
+            <input type="text" asp-for="Authors" class="form-control" />
+            <span asp-validation-for="Authors"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="CountPages" class="control-label">Кількість сторінок:</label>
+            <ol>
+                Умови:
+                <li>
+                    обов'язково ввести
+                </li>
+                <li>
+                    значення: 3 - 10000 сторінок
+                </li>
+            </ol>
+            <input type="number" asp-for="CountPages" class="form-control" />
+            <span asp-validation-for="CountPages"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="PublishOffice" class="control-label">Видавництво:</label>
+            <ol>
+                Умови:
+                <li>
+                    обов'язково ввести
+                </li>
+                <li>
+                    довжина: 3 - 50 символів
+                </li>
+                <li>
+                    тільки українські літери, цифри та спеціальні символи( -():+.,!)
+                </li>
+            </ol>
+            <input type="text" asp-for="PublishOffice" class="form-control" />
+            <span asp-validation-for="PublishOffice"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="PublishYear" class="control-label">Рік видання:</label>
+            <ol>
+                Умови:
+                <li>
+                    обов'язково ввести
+                </li>
+                <li>
+                    значення: 1500 - 2022 роки
+                </li>
+            </ol>
+            <input type="number" asp-for="PublishYear" class="form-control" />
+            <span asp-validation-for="PublishYear"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Count" class="control-label">Кількість екземплярів в магазині:</label>
+            <ol>
+                Умови:
+                <li>
+                    обов'язково ввести
+                </li>
+                <li>
+                    значення: 1 - 100 штук
+                </li>
+            </ol>
+            <input type="number" asp-for="Count" class="form-control" />
+            <span asp-validation-for="Count"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Cost" class="control-label">Ціна:</label>
+            <ol>
+                Умови:
+                <li>
+                    обов'язково ввести
+                </li>
+                <li>
+                    значення: 1 - 10000 у.е.
+                </li>
+            </ol>
+            <input type="number" asp-for="Cost" class="form-control" />
+            <span asp-validation-for="Cost"></span>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Create" class="btn btn-success" />
+        </div>
+    </div>
+</form>
+@section scripts{
+
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

@@ -1,0 +1,143 @@
+﻿@inject UI_Web.Services.ISessionService sessionService
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BookLand</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    @await Html.PartialAsync("_Cart", sessionService.GetCartProducts(Context, "cart"))
+    <header style="background-color: #99A799">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                @if (User.Identity.IsAuthenticated && User.Identity.Name != "admin@gmail.com")
+                {
+                    <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index" style="margin: 5px;"><h5><strong>BookLand</strong></h5></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                }
+                else if (User.Identity.IsAuthenticated && User.Identity.Name == "admin@gmail.com")
+                {
+                    <a class="navbar-brand" asp-area="" asp-controller="Admin" asp-action="Index" style="margin: 5px;"><h5><strong>BookLand</strong></h5></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                }
+                else
+                {
+                    <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index" style="margin: 5px;"><h5><strong>BookLand</strong></h5></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                }
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <ul class="navbar-nav flex-grow-1">
+                        @if (User.Identity.IsAuthenticated && User.Identity.Name != "admin@gmail.com")
+                        {
+                            <li class="nav-item" style="margin: 8px;">
+
+                            </li>
+                            <li class="nav-item" style="display: flex; flex-direction: column; width: 150px; margin-top: 5px; margin-left: 10px; margin-right: 10px; ">
+                                <form method="post" asp-action="ShowMyActiveOrders" asp-controller="Home">
+                                    <input type="submit" style="width: 150px; margin-bottom: 2.5px; " class="btn btn-dark" value="Акт. замовл." />
+                                </form>
+                                <form method="post" asp-action="ShowMyOrders" asp-controller="Home">
+                                    <input type="submit" style="width: 150px; margin-top: 2.5px; " class="btn btn-dark" value="Викон. замовл." />
+                                </form>
+                            </li>
+                            <li class="nav-item" style="display: flex; flex-direction: column; width: 270px; margin-top: 5px; margin-left: 10px; margin-right: 10px; ">
+                                <form method="get" asp-action="Search" asp-controller="Home">
+                                    <input type="text" style="width: 270px; margin-bottom: 6.5px; " name="srch" placeholder="Введіть будь-який символ для пошуку..." />
+                                    <input type="submit" style="width: 270px; margin-top: 6.5px; " class="btn btn-dark" value="Пошук" />
+                                </form>
+                            </li>
+                            <li class="nav-item" style="display: flex; flex-direction: column; margin-top: 5px; margin-left: 10px; margin-right: 10px; ">
+                                <button data-toggle="modal" style="margin-bottom: 2.5px;" data-target="#exampleModal" type="button" class="btn btn-dark position-relative">
+                                    Кошик
+                                    <span id="basket-products-counter" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                        @sessionService.GetCartProducts(Context, "cart")?.Count
+                                    </span>
+                                </button>
+                                <form method="post" asp-controller="Users" asp-action="Index">
+                                    <input type="submit" style="margin-top: 2.5px;" class="btn btn-dark position-relative" value="Управління аккаунтом" />
+                                </form>
+                            </li>
+                            <li class="nav-item" style="display: flex; flex-direction: column; margin-top: 5px; margin-left: 10px; margin-right: 10px; ">
+                                <span style="margin-bottom: 7px;">(@User.Identity.Name)</span>
+                                <form method="post" asp-controller="Account" asp-action="Logout">
+                                    <input type="submit" style="margin-top: 11px;" class="btn btn-dark position-relative" value="Вийти з аккаунту" />
+                                </form>
+                            </li>
+                        }
+                        else if (User.Identity.IsAuthenticated && User.Identity.Name == "admin@gmail.com")
+                        {
+                            <li style="margin: 5px;">
+                                <a class="btn btn-dark position-relative" asp-controller="Admin" asp-action="Create">Додати нову книгу</a>
+                            </li>
+                            <li style="margin: 5px;">
+                                <form method="post" asp-action="IndexOrders" asp-controller="Admin">
+                                    <input type="submit" class="btn btn-dark position-relative" value="Всі замовлення" />
+                                </form>
+                            </li>
+                            <li style="margin: 5px;">
+                                <form method="get" asp-action="Search" asp-controller="Admin">
+                                    <input type="text" name="srch" placeholder="Введіть будь-який символ для пошуку..." />
+                                    <input type="submit" class="btn btn-dark position-relative" value="Пошук" />
+                                </form>
+                            </li>
+                            <li style="margin: 5px;">
+                                <form method="post" asp-controller="Account" asp-action="Logout">
+                                    (@User.Identity.Name)
+                                    <input type="submit" class="btn btn-dark position-relative" value="Вийти з аккаунту" />
+                                </form>
+                            </li>
+                        }
+                        else
+                        {
+                            <li style="margin: 5px;">
+                                <form method="get" asp-action="Search" asp-controller="Home">
+                                    <input type="text" name="srch" placeholder="Введіть будь-який символ для пошуку..." />
+                                    <input type="submit" class="btn btn-dark position-relative" value="Пошук" />
+                                </form>
+                            </li>
+                            <li style="margin: 5px;">
+                                <form method="post" asp-controller="Account" asp-action="Login">
+                                    <input type="submit" class="btn btn-dark position-relative" value="Логін" />
+                                </form>
+                            </li>
+                            <li style="margin: 5px;">
+                                <form method="post" asp-controller="Account" asp-action="Register">
+                                    <input type="submit" class="btn btn-dark position-relative" value="Реєстрація" />
+                                </form>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container" style="display:flex; justify-content:space-around;">
+            &copy; 2022 - BookLand - <a asp-area="" asp-controller="Home" asp-action="Privacy">Конфіденційність</a>
+            <span><u><strong>З запитаннями звертайтеся за такими номерами: +380673938899(Київстар), +380958178480(Vodafone)</strong></u></span>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

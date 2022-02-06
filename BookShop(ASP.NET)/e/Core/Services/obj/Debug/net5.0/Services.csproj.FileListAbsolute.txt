@@ -1,0 +1,68 @@
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\Core\Services\obj\Debug\net5.0\Services.csproj.AssemblyReference.cache
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\Core\Services\obj\Debug\net5.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\Core\Services\obj\Debug\net5.0\Services.AssemblyInfoInputs.cache
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\Core\Services\obj\Debug\net5.0\Services.AssemblyInfo.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\Core\Services\obj\Debug\net5.0\Services.csproj.CoreCompileInputs.cache
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\Core\Services\bin\Debug\net5.0\Services.deps.json
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\Core\Services\bin\Debug\net5.0\Services.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\Core\Services\bin\Debug\net5.0\ref\Services.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\Core\Services\bin\Debug\net5.0\Services.pdb
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\Core\Services\bin\Debug\net5.0\Domain.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\Core\Services\bin\Debug\net5.0\Services.Abstractions.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\Core\Services\bin\Debug\net5.0\Domain.pdb
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\Core\Services\bin\Debug\net5.0\Services.Abstractions.pdb
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\Core\Services\obj\Debug\net5.0\Services.csproj.CopyComplete
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\Core\Services\obj\Debug\net5.0\Services.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\Core\Services\obj\Debug\net5.0\ref\Services.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\Core\Services\obj\Debug\net5.0\Services.pdb
+D:\Examen\Core\Services\bin\Debug\net5.0\Services.deps.json
+D:\Examen\Core\Services\bin\Debug\net5.0\Services.dll
+D:\Examen\Core\Services\bin\Debug\net5.0\ref\Services.dll
+D:\Examen\Core\Services\bin\Debug\net5.0\Services.pdb
+D:\Examen\Core\Services\bin\Debug\net5.0\Domain.dll
+D:\Examen\Core\Services\bin\Debug\net5.0\Services.Abstractions.dll
+D:\Examen\Core\Services\bin\Debug\net5.0\Domain.pdb
+D:\Examen\Core\Services\bin\Debug\net5.0\Services.Abstractions.pdb
+D:\Examen\Core\Services\obj\Debug\net5.0\Services.csproj.AssemblyReference.cache
+D:\Examen\Core\Services\obj\Debug\net5.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Examen\Core\Services\obj\Debug\net5.0\Services.AssemblyInfoInputs.cache
+D:\Examen\Core\Services\obj\Debug\net5.0\Services.AssemblyInfo.cs
+D:\Examen\Core\Services\obj\Debug\net5.0\Services.csproj.CoreCompileInputs.cache
+D:\Examen\Core\Services\obj\Debug\net5.0\Services.csproj.CopyComplete
+D:\Examen\Core\Services\obj\Debug\net5.0\Services.dll
+D:\Examen\Core\Services\obj\Debug\net5.0\ref\Services.dll
+D:\Examen\Core\Services\obj\Debug\net5.0\Services.pdb
+D:\e\Core\Services\obj\Debug\net5.0\Services.csproj.AssemblyReference.cache
+D:\e\Core\Services\obj\Debug\net5.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\e\Core\Services\obj\Debug\net5.0\Services.AssemblyInfoInputs.cache
+D:\e\Core\Services\obj\Debug\net5.0\Services.AssemblyInfo.cs
+D:\e\Core\Services\obj\Debug\net5.0\Services.csproj.CoreCompileInputs.cache
+D:\e\Core\Services\obj\Debug\net5.0\Services.dll
+D:\e\Core\Services\obj\Debug\net5.0\ref\Services.dll
+D:\e\Core\Services\obj\Debug\net5.0\Services.pdb
+D:\e\Core\Services\bin\Debug\net5.0\Services.deps.json
+D:\e\Core\Services\bin\Debug\net5.0\Services.dll
+D:\e\Core\Services\bin\Debug\net5.0\ref\Services.dll
+D:\e\Core\Services\bin\Debug\net5.0\Services.pdb
+D:\e\Core\Services\bin\Debug\net5.0\Domain.dll
+D:\e\Core\Services\bin\Debug\net5.0\Services.Abstractions.dll
+D:\e\Core\Services\bin\Debug\net5.0\Domain.pdb
+D:\e\Core\Services\bin\Debug\net5.0\Services.Abstractions.pdb
+D:\e\Core\Services\obj\Debug\net5.0\Services.csproj.CopyComplete
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\Core\Services\obj\Debug\net5.0\Services.csproj.AssemblyReference.cache
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\Core\Services\obj\Debug\net5.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\Core\Services\obj\Debug\net5.0\Services.AssemblyInfoInputs.cache
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\Core\Services\obj\Debug\net5.0\Services.AssemblyInfo.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\Core\Services\obj\Debug\net5.0\Services.csproj.CoreCompileInputs.cache
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\Core\Services\obj\Debug\net5.0\Services.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\Core\Services\obj\Debug\net5.0\ref\Services.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\Core\Services\obj\Debug\net5.0\Services.pdb
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\Core\Services\bin\Debug\net5.0\Services.deps.json
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\Core\Services\bin\Debug\net5.0\Services.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\Core\Services\bin\Debug\net5.0\ref\Services.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\Core\Services\bin\Debug\net5.0\Services.pdb
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\Core\Services\bin\Debug\net5.0\Domain.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\Core\Services\bin\Debug\net5.0\Services.Abstractions.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\Core\Services\bin\Debug\net5.0\Domain.pdb
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\Core\Services\bin\Debug\net5.0\Services.Abstractions.pdb
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\Core\Services\obj\Debug\net5.0\Services.csproj.CopyComplete

@@ -1,0 +1,66 @@
+﻿@using Services.Abstractions.Dto.Order;
+@using UI_Web.Models.Account;
+@using Microsoft.AspNetCore.Identity;
+@using Domain.Entity;
+@model OrderDto;
+@inject UserManager<MyUser> userManager;
+@{var user = await userManager.FindByIdAsync(Model.MyUserId.ToString());
+    ViewData["Title"] = "Адмін - деталі замовлення";}
+<style>
+    body {
+        background-color: #D3E4CD;
+    }
+</style>
+@if (Model.IsCompleted == true)
+{
+    <div class="card" style="width: 28rem; margin: 15px; background-color: #FEF5ED;">
+        <div class="card-body">
+            <h5 class="card-text">Ім'я': @user.FirstName</h5>
+            <h5 class="card-text">Прізвище: @user.LastName</h5>
+            <h5 class="card-text">Номер телефону: @user.PhoneNumber</h5>
+            <h5 class="card-text">Електронна адреса: @user.Email</h5>
+            <h6 class="card-text">Сума: @Model.Price</h6>
+            <h6 class="card-text">Виконано: @Model.IsCompleted</h6>
+            <h6 class="card-text">Дата оформлення замовлення: @Model.CreatedAt</h6>
+            <h6 class="card-text">Адреса: @Model.Adress</h6>
+            <h6 class="card-text">Місто: @Model.City</h6>
+            <h6 class="card-text">Поштовий індекс: @Model.PostalCode</h6>
+            <div style="display: flex; justify-content: center;">
+                <form action="/admin/deleteOrder" method="post" style="margin: 5px;">
+                    <input type="hidden" name="id" value="@Model.Id" />
+                    <button class="btn btn-success">Видалити</button>
+                </form>
+            </div>
+        </div>
+    </div>
+}
+else{
+<div class="card" style="width: 28rem; margin: 15px; background-color: #FEF5ED;">
+    <div class="card-body">
+        <h5 class="card-text">Ім'я': @user.FirstName</h5>
+        <h5 class="card-text">Прізвище: @user.LastName</h5>
+        <h5 class="card-text">Номер телефону: @user.PhoneNumber</h5>
+        <h5 class="card-text">Електронна адреса: @user.Email</h5>
+        <h6 class="card-text">Сума: @Model.Price</h6>
+        <h6 class="card-text">Виконано: @Model.IsCompleted</h6>
+        <h6 class="card-text">Дата оформлення замовлення: @Model.CreatedAt</h6>
+        <h6 class="card-text">Адреса: @Model.Adress</h6>
+        <h6 class="card-text">Місто: @Model.City</h6>
+        <h6 class="card-text">Поштовий індекс: @Model.PostalCode</h6>
+        <div style="display: flex; justify-content: center;">
+            <form action="/admin/deleteOrder" method="post" style="margin: 5px;">
+                <input type="hidden" name="id" value="@Model.Id" />
+                <button class="btn btn-success">Видалити</button>
+            </form>
+            <form action="/admin/editOrder" method="get" style="margin: 5px;">
+                <input type="hidden" name="id" value="@Model.Id" />
+                <button class="btn btn-success">Редагувати</button>
+            </form>
+            <form action="/admin/addToArchive" method="post" style="margin: 5px;">
+                <input type="hidden" name="id" value="@Model.Id" />
+                <button class="btn btn-success">Виконати</button>
+            </form>
+        </div>
+    </div>
+</div>
+}

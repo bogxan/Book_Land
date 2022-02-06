@@ -1,0 +1,48 @@
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\Core\Domain\obj\Debug\net5.0\Domain.csproj.AssemblyReference.cache
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\Core\Domain\obj\Debug\net5.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\Core\Domain\obj\Debug\net5.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\Core\Domain\obj\Debug\net5.0\Domain.AssemblyInfo.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\Core\Domain\obj\Debug\net5.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\Core\Domain\bin\Debug\net5.0\Domain.deps.json
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\Core\Domain\bin\Debug\net5.0\Domain.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\Core\Domain\bin\Debug\net5.0\ref\Domain.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\Core\Domain\bin\Debug\net5.0\Domain.pdb
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\Core\Domain\obj\Debug\net5.0\Domain.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\Core\Domain\obj\Debug\net5.0\ref\Domain.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Examen\Core\Domain\obj\Debug\net5.0\Domain.pdb
+D:\Examen\Core\Domain\obj\Debug\net5.0\Domain.csproj.AssemblyReference.cache
+D:\Examen\Core\Domain\obj\Debug\net5.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Examen\Core\Domain\obj\Debug\net5.0\Domain.AssemblyInfoInputs.cache
+D:\Examen\Core\Domain\obj\Debug\net5.0\Domain.AssemblyInfo.cs
+D:\Examen\Core\Domain\obj\Debug\net5.0\Domain.csproj.CoreCompileInputs.cache
+D:\Examen\Core\Domain\obj\Debug\net5.0\Domain.dll
+D:\Examen\Core\Domain\obj\Debug\net5.0\ref\Domain.dll
+D:\Examen\Core\Domain\obj\Debug\net5.0\Domain.pdb
+D:\Examen\Core\Domain\bin\Debug\net5.0\Domain.deps.json
+D:\Examen\Core\Domain\bin\Debug\net5.0\Domain.dll
+D:\Examen\Core\Domain\bin\Debug\net5.0\ref\Domain.dll
+D:\Examen\Core\Domain\bin\Debug\net5.0\Domain.pdb
+D:\e\Core\Domain\bin\Debug\net5.0\Domain.deps.json
+D:\e\Core\Domain\bin\Debug\net5.0\Domain.dll
+D:\e\Core\Domain\bin\Debug\net5.0\ref\Domain.dll
+D:\e\Core\Domain\bin\Debug\net5.0\Domain.pdb
+D:\e\Core\Domain\obj\Debug\net5.0\Domain.csproj.AssemblyReference.cache
+D:\e\Core\Domain\obj\Debug\net5.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\e\Core\Domain\obj\Debug\net5.0\Domain.AssemblyInfoInputs.cache
+D:\e\Core\Domain\obj\Debug\net5.0\Domain.AssemblyInfo.cs
+D:\e\Core\Domain\obj\Debug\net5.0\Domain.csproj.CoreCompileInputs.cache
+D:\e\Core\Domain\obj\Debug\net5.0\Domain.dll
+D:\e\Core\Domain\obj\Debug\net5.0\ref\Domain.dll
+D:\e\Core\Domain\obj\Debug\net5.0\Domain.pdb
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\Core\Domain\bin\Debug\net5.0\Domain.deps.json
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\Core\Domain\bin\Debug\net5.0\Domain.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\Core\Domain\bin\Debug\net5.0\ref\Domain.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\Core\Domain\bin\Debug\net5.0\Domain.pdb
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\Core\Domain\obj\Debug\net5.0\Domain.csproj.AssemblyReference.cache
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\Core\Domain\obj\Debug\net5.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\Core\Domain\obj\Debug\net5.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\Core\Domain\obj\Debug\net5.0\Domain.AssemblyInfo.cs
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\Core\Domain\obj\Debug\net5.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\Core\Domain\obj\Debug\net5.0\Domain.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\Core\Domain\obj\Debug\net5.0\ref\Domain.dll
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\Core\Domain\obj\Debug\net5.0\Domain.pdb

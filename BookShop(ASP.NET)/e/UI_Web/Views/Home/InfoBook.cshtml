@@ -1,0 +1,49 @@
+﻿@using Services.Abstractions.Dto.StoreBook;
+@model StoreBookDto;
+@{
+    ViewData["Title"] = "Користувач - деталі книги";
+}
+<style>
+    body {
+        background-color: #D3E4CD;
+    }
+</style>
+<a asp-action="Index" asp-controller="Home" class="btn btn-success">&larr; Назад</a>
+@if (User.Identity.IsAuthenticated)
+{
+    if (Model.Count > 0)
+    {
+        <div class="card" style="width: 28rem; background-color: #FEF5ED; margin: 5px;">
+            <div class="card-body">
+                <h5 class="card-text">Назва: @Model.Name</h5>
+                <h6 class="card-text">Автор(-и): @Model.Authors</h6>
+                <h6 class="card-text">Ціна: @Model.Cost</h6>
+                <h6 class="card-text">Кількість екземплярів в магазині: @Model.Count</h6>
+                <h6 class="card-text">Жанр: @Model.Genre</h6>
+                <h6 class="card-text">Видавництво: @Model.PublishOffice</h6>
+                <h6 class="card-text">Рік видання: @Model.PublishYear</h6>
+                <form action="/home/addToCart" method="post">
+                    <input type="hidden" name="id" value="@Model.Id" />
+                    <button class="btn btn-success">Додати до кошика</button>
+                </form>
+            </div>
+        </div>
+    }
+}
+else
+{
+    if (Model.Count > 0)
+    {
+        <div class="card" style="width: 18rem; background-color: #FEF5ED; margin: 5px;">
+            <div class="card-body">
+                <h5 class="card-text">Назва: @Model.Name</h5>
+                <h6 class="card-text">Автор(-и): @Model.Authors</h6>
+                <h6 class="card-text">Ціна: @Model.Cost</h6>
+                <h6 class="card-text">Кількість екземплярів в магазині: @Model.Count</h6>
+                <h6 class="card-text">Жанр: @Model.Genre</h6>
+                <h6 class="card-text">Видавництво: @Model.PublishOffice</h6>
+                <h6 class="card-text">Рік видання: @Model.PublishYear</h6>
+            </div>
+        </div>
+    }
+}
