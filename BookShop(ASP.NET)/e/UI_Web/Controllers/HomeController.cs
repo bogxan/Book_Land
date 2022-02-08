@@ -46,11 +46,22 @@ namespace UI_Web.Controllers
                 srchWrd = "";
                 List<StoreBookDto> books = (await _serviceManager.StoreBooksService.GetAllAsync()).ToList();
                 booksSrch = new List<StoreBookDto>();
-                return View(new HomeIndexViewModel
+                if (books.Count > 0)
                 {
-                    Books = books,
-                    SrchWrd = srchWrd
-                });
+                    return View(new HomeIndexViewModel
+                    {
+                        Books = books,
+                        SrchWrd = srchWrd
+                    });
+                }
+                else
+                {
+                    return View(new HomeIndexViewModel
+                    {
+                        Books = books,
+                        SrchWrd = "Empty"
+                    });
+                }
             }
         }
         public IActionResult MyError(string msg)

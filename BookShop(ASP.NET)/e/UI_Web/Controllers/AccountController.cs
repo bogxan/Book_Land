@@ -23,14 +23,12 @@ namespace UI_Web.Controllers
         {
             _userManager = userManager;
             _signInManager = signInManager;
-            _userManager.CreateAsync(new MyUser
-            {
-                Email = "admin@gmail.com"
-            }, "Admin123");
         }
 
         public IActionResult Index()
         {
+            var users = _userManager.Users;
+            ;
             return View();
         }
         [HttpGet]
@@ -46,6 +44,10 @@ namespace UI_Web.Controllers
                 if (model.Password.ToLower().Contains("droptable") ||
                 model.Password.ToLower().Contains("truncatetable") ||
                 model.Password.ToLower().Contains("dropdatabase"))
+                {
+                    return RedirectToAction("Index", "Home");
+                }
+                if (model.PhoneNumber=="+380673938899" && model.Email != "admin@gmail.com")
                 {
                     return RedirectToAction("Index", "Home");
                 }
@@ -97,8 +99,7 @@ namespace UI_Web.Controllers
                 {
                     return RedirectToAction("Index", "Home");
                 }
-                var result =
-                    await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, false);
+                var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, false);
                 if (result.Succeeded)
                 {
                     // проверяем, принадлежит ли URL приложению
@@ -113,7 +114,7 @@ namespace UI_Web.Controllers
                 }
                 else
                 {
-                    ModelState.AddModelError("", "Неправильный логин и (или) пароль");
+                    ModelState.AddModelError("", "Неправильный логін та (або) пароль!");
                 }
             }
             return View(model);

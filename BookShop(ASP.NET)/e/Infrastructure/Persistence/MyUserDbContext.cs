@@ -17,5 +17,19 @@ namespace Persistence
             //Database.EnsureDeleted();
             Database.EnsureCreated();
         }
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            builder.Entity<MyUser>().HasData(new MyUser
+            {
+                Id = Guid.NewGuid().ToString(),
+                Email = "admin@gmail.com",
+                Password = "Admin123",
+                FirstName = "Адмін",
+                LastName = "Адмін",
+                PhoneNumber = "+380673938899"
+            });
+            base.OnModelCreating(builder);
+        }
     }
 }

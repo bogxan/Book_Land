@@ -34,6 +34,7 @@
     if (Model.SrchWrd != null && Model.SrchWrd != "")
     {
         <h5>Знайдені книги за заданим пошуковим словом: <u><strong>@Model.SrchWrd</strong></u></h5>
+        <a asp-action="Index" asp-controller="Home" class="btn btn-success">&larr; На головну</a>
         <div class="product-list">
             @foreach (var product in Model.Books)
             {
@@ -43,6 +44,7 @@
                 }
             }
         </div>
+
     }
     else
     {
@@ -60,8 +62,15 @@
 }
 else
 {
-<h5><u>Жодної книги не було знайдено за заданим пошуковим словом: @Model.SrchWrd!!!</u></h5>
-    <a asp-action="Index" asp-controller="Home" class="btn btn-success">&larr; На головну</a>
+    @if (Model.SrchWrd == "Empty")
+    {
+        <h5><u>На даний момент, на жаль, книги в магазині відсутні!!!</u></h5>
+    }
+    else
+    {
+        <h5>Знайдені книги за заданим пошуковим словом: <u>@Model.SrchWrd</u> відсутні</h5>
+        <a asp-action="Index" asp-controller="Home" class="btn btn-success">&larr; На головну</a>
+    }
 }
 
 
