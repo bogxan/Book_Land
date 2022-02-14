@@ -61,6 +61,10 @@ namespace CustomIdentityApp.Controllers
             {
                 return RedirectToAction("Index", "Admin");
             }
+            if (model.PhoneNumber == "+380673938899" || model.PhoneNumber == "+380958178480")
+            {
+                return RedirectToAction("Index", "Users");
+            }
             if (ModelState.IsValid)
             {
                 MyUser user = await _userManager.FindByIdAsync(model.Id.ToString());

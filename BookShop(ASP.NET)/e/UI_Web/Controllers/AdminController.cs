@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using Domain.Entity;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Services.Abstractions.Dto.Order;
 using Services.Abstractions.Dto.StoreBook;
@@ -18,12 +20,14 @@ namespace UI_Web.Controllers
     {
         IServiceManager _serviceManager;
         ISessionService _sessionService;
+        UserManager<MyUser> _userManager;
         static List<StoreBookDto> booksSrch = new List<StoreBookDto>();
         static string srchWrd;
-        public AdminController(ISessionService sessionService, IServiceManager serviceManager)
+        public AdminController(ISessionService sessionService, IServiceManager serviceManager, UserManager<MyUser> userManager)
         {
             _serviceManager = serviceManager;
             _sessionService = sessionService;
+            _userManager = userManager;
         }
 
         [Authorize]

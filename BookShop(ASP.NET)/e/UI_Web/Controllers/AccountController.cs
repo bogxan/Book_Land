@@ -47,7 +47,7 @@ namespace UI_Web.Controllers
                 {
                     return RedirectToAction("Index", "Home");
                 }
-                if (model.PhoneNumber=="+380673938899" && model.Email != "admin@gmail.com")
+                if ((model.PhoneNumber=="+380673938899" && model.Email != "admin@gmail.com") || (model.PhoneNumber == "+380958178480" && model.Email != "admin@gmail.com"))
                 {
                     return RedirectToAction("Index", "Home");
                 }

@@ -58,3 +58,6 @@ C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\I
 C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\Infrastructure\Persistence\bin\Debug\net5.0\Domain.dll
 C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\Infrastructure\Persistence\bin\Debug\net5.0\Domain.pdb
 C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.csproj.CopyComplete
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\Infrastructure\Persistence\bin\Debug\net5.0\Persistence.runtimeconfig.json
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\Infrastructure\Persistence\bin\Debug\net5.0\Persistence.runtimeconfig.dev.json
+C:\Users\Bohdan\OneDrive\Рабочий стол\Book_Land\BookShop(ASP.NET)\e\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.genruntimeconfig.cache

@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,20 +17,15 @@ namespace Persistence
         {
             //Database.EnsureDeleted();
             Database.EnsureCreated();
-        }
-
-        protected override void OnModelCreating(ModelBuilder builder)
-        {
-            builder.Entity<MyUser>().HasData(new MyUser
-            {
-                Id = Guid.NewGuid().ToString(),
-                Email = "admin@gmail.com",
-                Password = "Admin123",
-                FirstName = "Адмін",
-                LastName = "Адмін",
-                PhoneNumber = "+380673938899"
-            });
-            base.OnModelCreating(builder);
+            //db.AddAsync(new MyUser
+            //{
+            //    Id = Guid.NewGuid().ToString(),
+            //    Email = "admin@gmail.com",
+            //    Password = "Admin123",
+            //    FirstName = "Адмін",
+            //    LastName = "Адмін",
+            //    PhoneNumber = "+380673938899"
+            //});
         }
     }
 }
