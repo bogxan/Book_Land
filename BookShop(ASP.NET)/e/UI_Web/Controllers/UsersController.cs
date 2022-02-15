@@ -5,8 +5,8 @@ using Microsoft.AspNetCore.Identity;
 using Domain.Entity;
 using UI_Web.Models.Home;
 using Services.Abstractions.Service;
-using UI_Web.Models.Users;
 using Microsoft.AspNetCore.Authorization;
+using UI_Web.Models.Users;
 
 namespace CustomIdentityApp.Controllers
 {

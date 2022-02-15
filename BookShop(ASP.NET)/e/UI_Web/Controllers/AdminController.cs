@@ -177,13 +177,29 @@ namespace UI_Web.Controllers
             {
                 return RedirectToAction("Index", "Home");
             }
-            booksSrch = (await _serviceManager.StoreBooksService.Search(srch)).ToList();
-            srchWrd = srch;
-            return View("Index", new HomeIndexBookViewModel
+            if (srch != null)
             {
-                Books = booksSrch,
-                SrchWrd = srch
-            });
+                if (srch.Length < 0 || srch.Length > 20 || srch.ToLower().Contains("drop table") ||
+                srch.ToLower().Contains("truncate table") ||
+                srch.ToLower().Contains("drop database"))
+                {
+                    return RedirectToAction("Index", "Admin");
+                }
+                else
+                {
+                    booksSrch = (await _serviceManager.StoreBooksService.Search(srch)).ToList();
+                    srchWrd = srch;
+                    return View("Index", new HomeIndexBookViewModel
+                    {
+                        Books = booksSrch,
+                        SrchWrd = srch
+                    });
+                }
+            }
+            else
+            {
+                return RedirectToAction("Index", "Admin");
+            }
         }
         [Authorize]
         public async Task<IActionResult> FilterByNew()
@@ -523,6 +539,73 @@ namespace UI_Web.Controllers
             {
                 return View("MyError", new MyErrorViewModel { Message = "Сталася помилка!" });
             }
+        }
+
+        public IActionResult IndexAccount()
+        {
+            return View();
+        }
+
+        [Authorize]
+        public async Task<IActionResult> ChangePassword(string id)
+        {
+            if (User.Identity.Name != "admin@gmail.com")
+            {
+                return RedirectToAction("Index", "Home");
+            }
+            MyUser user = await _userManager.FindByIdAsync(id);
+            if (user == null)
+            {
+                return View("MyError", new MyErrorViewModel { Message = "Сталася помилка!" });
+            }
+            ChangePasswordViewModel model = new ChangePasswordViewModel { Id = user.Id, Email = user.Email };
+            return View(model);
+        }
+
+        [HttpPost]
+        [Authorize]
+        public async Task<IActionResult> ChangePassword(ChangePasswordViewModel model)
+        {
+            if (User.Identity.Name != "admin@gmail.com")
+            {
+                return RedirectToAction("Index", "Home");
+            }
+            if (ModelState.IsValid)
+            {
+                if ((model.NewPassword.ToLower().Contains("droptable") ||
+                model.NewPassword.ToLower().Contains("truncatetable") ||
+                model.NewPassword.ToLower().Contains("dropdatabase")) && 
+                (model.OldPassword.ToLower().Contains("droptable") ||
+                model.OldPassword.ToLower().Contains("truncatetable") ||
+                model.OldPassword.ToLower().Contains("dropdatabase")))
+                {
+                    return RedirectToAction("Index", "Admin");
+                }
+                MyUser user = await _userManager.FindByIdAsync(model.Id);
+                if (user != null)
+                {
+                    IdentityResult result =
+                        await _userManager.ChangePasswordAsync(user, model.OldPassword, model.NewPassword);
+                    if (result.Succeeded)
+                    {
+                        user.Password = model.NewPassword;
+                        await _userManager.UpdateAsync(user);
+                        return RedirectToAction("Login", "Account");
+                    }
+                    else
+                    {
+                        foreach (var error in result.Errors)
+                        {
+                            ModelState.AddModelError(string.Empty, error.Description);
+                        }
+                    }
+                }
+                else
+                {
+                    ModelState.AddModelError(string.Empty, "Пользователь не найден");
+                }
+            }
+            return View(model);
         }
     }
 }

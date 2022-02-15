@@ -97,7 +97,7 @@ namespace UI_Web.Controllers
             }
             if (srch != null)
             {
-                if (srch.Length > 0 && srch.ToLower().Contains("drop table") ||
+                if (srch.Length < 0 || srch.Length > 20 ||  srch.ToLower().Contains("drop table") ||
                 srch.ToLower().Contains("truncate table") ||
                 srch.ToLower().Contains("drop database"))
                 {

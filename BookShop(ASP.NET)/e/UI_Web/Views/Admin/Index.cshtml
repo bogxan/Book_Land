@@ -35,6 +35,7 @@
     {
 
         <h5>Знайдені книги за заданим пошуковим словом: <u>@Model.SrchWrd</u></h5>
+        <a asp-action="Index" asp-controller="Admin" class="btn btn-success">&larr; На головну</a>
         <div class="product-list">
             @foreach (var product in Model.Books)
             {

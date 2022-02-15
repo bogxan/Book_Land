@@ -1,4 +1,25 @@
 ﻿@inject UI_Web.Services.ISessionService sessionService
+@using Microsoft.AspNetCore.Identity;
+@using Domain.Entity;
+@inject UserManager<MyUser> userManager;
+@{
+    var user = new MyUser();
+    if (User.Identity.Name != null)
+    {
+        if (User.Identity.Name.Length > 0)
+        {
+            user = await userManager.FindByNameAsync(User.Identity.Name.ToString());
+        }
+        else
+        {
+            user = new MyUser();
+        }
+    }
+    else
+    {
+        user = new MyUser();
+    }
+}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -41,9 +62,6 @@
                     <ul class="navbar-nav flex-grow-1">
                         @if (User.Identity.IsAuthenticated && User.Identity.Name != "admin@gmail.com")
                         {
-                            <li class="nav-item" style="margin: 8px;">
-
-                            </li>
                             <li class="nav-item" style="display: flex; flex-direction: column; width: 150px; margin-top: 5px; margin-left: 10px; margin-right: 10px; ">
                                 <form method="post" asp-action="ShowMyActiveOrders" asp-controller="Home">
                                     <input type="submit" style="width: 150px; margin-bottom: 2.5px; " class="btn btn-dark" value="Акт. замовл." />
@@ -78,25 +96,29 @@
                         }
                         else if (User.Identity.IsAuthenticated && User.Identity.Name == "admin@gmail.com")
                         {
-                            <li style="margin: 5px;">
-                                <a class="btn btn-dark position-relative" asp-controller="Admin" asp-action="Create">Додати нову книгу</a>
-                            </li>
-                            <li style="margin: 5px;">
+                            <li class="nav-item" style="display: flex; flex-direction: column; width: 150px; margin-top: 5px; margin-left: 10px; margin-right: 10px; ">
+                                <a class="btn btn-dark" style="width: 150px; margin-bottom: 2.5px; " asp-controller="Admin" asp-action="Create">Нова книга</a>
                                 <form method="post" asp-action="IndexOrders" asp-controller="Admin">
-                                    <input type="submit" class="btn btn-dark position-relative" value="Всі замовлення" />
+                                    <input type="submit" style="width: 150px; margin-bottom: 2.5px; " class="btn btn-dark " value="Всі замовлення" />
                                 </form>
                             </li>
-                            <li style="margin: 5px;">
+                            <li class="nav-item" style="display: flex; flex-direction: column; width: 270px; margin-top: 5px; margin-left: 10px; margin-right: 10px; ">
                                 <form method="get" asp-action="Search" asp-controller="Admin">
-                                    <input type="text" name="srch" placeholder="Введіть будь-який символ для пошуку..." />
-                                    <input type="submit" class="btn btn-dark position-relative" value="Пошук" />
+                                    <input type="text" style="width: 270px; margin-bottom: 6px; " name="srch" placeholder="Введіть будь-який символ для пошуку..." />
+                                    <input type="submit" style="width: 270px; margin-bottom: 6.5px; margin-top:5px; " class="btn btn-dark" value="Пошук" />
                                 </form>
                             </li>
-                            <li style="margin: 5px;">
-                                <form method="post" asp-controller="Account" asp-action="Logout">
-                                    (@User.Identity.Name)
-                                    <input type="submit" class="btn btn-dark position-relative" value="Вийти з аккаунту" />
+                            <li class="nav-item" style="display: flex; flex-direction: column; margin-top: 5px; margin-left: 10px; margin-right: 10px; ">
+                                <form method="get" asp-controller="Admin" asp-action="IndexAccount">
+                                    <input type="submit" class="btn btn-dark" style="width: 200px;" value="Управління аккаунтом" />
                                 </form>
+                                <form method="post" asp-controller="Account" asp-action="Logout">
+                                    <input type="submit" style="margin-top: 3px; width: 200px;" class="btn btn-dark position-relative" value="Вийти з аккаунту" />
+                                </form>
+                            </li>
+                            <li class="nav-item" style="display: flex; flex-direction: column; margin-top: 5px; margin-left: 10px; margin-right: 10px; ">
+                                <span style="margin-top: 27px;">(@User.Identity.Name)</span>
+
                             </li>
                         }
                         else
