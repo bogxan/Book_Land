@@ -138,8 +138,8 @@ namespace UI_Web.Controllers
                 var books = await _serviceManager.StoreBooksService.GetAllAsync();
                 foreach(var book in books)
                 {
-                    if(book.Name==model.Name && book.Authors==model.Authors && book.Genre==model.Genre
-                        && book.CountPages==model.CountPages && book.PublishOffice==model.PublishOffice
+                    if(book.Name.ToLower() == model.Name.ToLower() && book.Authors.ToLower() == model.Authors.ToLower() && book.Genre.ToLower() == model.Genre.ToLower()
+                        && book.CountPages==model.CountPages && book.PublishOffice.ToLower() == model.PublishOffice.ToLower()
                         && book.PublishYear==model.PublishYear && book.Cost==model.Cost)
                     {
                         //id = book.Id;
@@ -347,8 +347,8 @@ namespace UI_Web.Controllers
                 var books = await _serviceManager.StoreBooksService.GetAllAsync();
                 foreach (var book in books)
                 {
-                    if (book.Name == model.Name && book.Authors == model.Authors && book.Genre == model.Genre
-                        && book.CountPages == model.CountPages && book.PublishOffice == model.PublishOffice
+                    if (book.Name.ToLower() == model.Name.ToLower() && book.Authors.ToLower() == model.Authors.ToLower() && book.Genre.ToLower() == model.Genre.ToLower()
+                        && book.CountPages == model.CountPages && book.PublishOffice.ToLower() == model.PublishOffice.ToLower()
                         && book.PublishYear == model.PublishYear && book.Cost == model.Cost && book.Count == model.Count)
                     {
                         k++;
