@@ -13,6 +13,7 @@ using Services.AutoMapper.Profiles;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Globalization;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
@@ -381,15 +382,15 @@ namespace UI_Web.Controllers
             {
                 return RedirectToAction("Index");
             }
-            return View(new CreateOrderDto
+            return View(new CreateOrder
             {
-                Price = price
+                Price = price.ToString()
             });
         }
 
         [HttpPost]
         [Authorize]
-        public async Task<IActionResult> Submit(CreateOrderDto model)
+        public async Task<IActionResult> Submit(CreateOrder model)
         {
             if (User.Identity.Name == "admin@gmail.com")
             {
@@ -401,6 +402,9 @@ namespace UI_Web.Controllers
             }
             else
             {
+                NumberFormatInfo provider = new NumberFormatInfo();
+                provider.NumberDecimalSeparator = ".";
+                provider.NumberGroupSeparator = ",";
                 int countBooks = 0;
                 var purchasesInCart = _sessionService.GetCartProducts(HttpContext, "cart");
                 var booksAll = (await _serviceManager.StoreBooksService.GetAllAsync()).ToList();
@@ -408,13 +412,15 @@ namespace UI_Web.Controllers
                 {
                     countBooks++;
                 }
+                model.Price = model.Price.Replace(',', '.');
+                double price = Convert.ToDouble(model.Price, provider);
                 var result = await _serviceManager.OrdersService.CreateAsync(new CreateOrderDto
                 {
                     City = model.City,
                     Adress = model.Adress,
                     PostalCode = model.PostalCode,
                     MyUserId = Guid.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)),
-                    Price = model.Price,
+                    Price = price,
                     CountBooks = countBooks
                 });
                 foreach (var item in booksAll)

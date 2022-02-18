@@ -2,13 +2,11 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
-using Services.Abstractions.Dto.Order;
 
-namespace Services.Abstractions.Dto.StoreBook
+namespace UI_Web.Models.Admin
 {
-    public class StoreBookDto
+    public class EditBook
     {
         public Guid Id { get; set; }
         [Required(ErrorMessage = "Обов'язково ввести!")]
@@ -48,7 +46,7 @@ namespace Services.Abstractions.Dto.StoreBook
         public int Count { get; set; }
 
         [Required(ErrorMessage = "Обов'язково ввести!")]
-        [Range(1.00, 10000.00, ErrorMessage = "Від 1 у.е. до 10000 у.е.")]
-        public double Cost { get; set; }
+        [RegularExpression(@"\b(\d+(?:\.(?:[^0]\d|\d[^0]))?)\b", ErrorMessage = "Дробова частина пишется через крапку!")]
+        public string Cost { get; set; }
     }
 }

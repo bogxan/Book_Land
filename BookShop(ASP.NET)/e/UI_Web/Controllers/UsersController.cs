@@ -192,6 +192,10 @@ namespace CustomIdentityApp.Controllers
                 MyUser user = await _userManager.FindByIdAsync(model.Id);
                 if (user != null)
                 {
+                    if (user.Password != model.OldPassword)
+                    {
+                        return View("MyError", new UI_Web.Models.Users.MyErrorViewModel { Message = "Паролі не співпадають!" });
+                    }
                     IdentityResult result =
                         await _userManager.ChangePasswordAsync(user, model.OldPassword, model.NewPassword);
                     if (result.Succeeded)
@@ -210,7 +214,7 @@ namespace CustomIdentityApp.Controllers
                 }
                 else
                 {
-                    ModelState.AddModelError(string.Empty, "Пользователь не найден");
+                    ModelState.AddModelError(string.Empty, "Користувача не знайдено!");
                 }
             }
             return View(model);

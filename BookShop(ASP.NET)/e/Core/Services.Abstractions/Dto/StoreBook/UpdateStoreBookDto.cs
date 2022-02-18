@@ -47,7 +47,7 @@ namespace Services.Abstractions.Dto.StoreBook
         public int Count { get; set; }
 
         [Required(ErrorMessage = "Обов'язково ввести!")]
-        [Range(1, 10000, ErrorMessage = "Від 1 у.е. до 10000 у.е.")]
+        [Range(1.00, 10000.00, ErrorMessage = "Від 1 у.е. до 10000 у.е.")]
         public double Cost { get; set; }
     }
 }

@@ -1,5 +1,5 @@
-﻿@using Services.Abstractions.Dto.StoreBook;
-@model StoreBookDto;
+﻿@using UI_Web.Models.Admin;
+@model EditBook;
 @{ 
     ViewData["Title"] = "Адмін - редагування книги";
 }
@@ -133,7 +133,7 @@
                     значення: 1 - 10000 у.е.
                 </li>
             </ol>
-            <input type="number" asp-for="Cost" class="form-control" />
+            <input type="text" asp-for="Cost" class="form-control" />
             <span asp-validation-for="Cost"></span>
         </div>
         <div class="form-group">

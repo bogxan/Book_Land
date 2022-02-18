@@ -1,5 +1,5 @@
-﻿@using Services.Abstractions.Dto.Order;
-@model CreateOrderDto;
+﻿@using UI_Web.Models.Home;
+@model CreateOrder;
 @using UI_Web.Models.Account;
 @using Microsoft.AspNetCore.Identity;
 @using Domain.Entity;
@@ -86,7 +86,7 @@
     </div>
     <div class="form-group">
         <label asp-for="Price" class="control-label">Сума:</label>
-        <input type="number" asp-for="Price" class="form-control" readonly />
+        <input type="text" asp-for="Price" class="form-control" readonly />
     </div>
     <div class="form-group">
         <input type="submit" value="Оформити замовлення" class="btn btn-success" />

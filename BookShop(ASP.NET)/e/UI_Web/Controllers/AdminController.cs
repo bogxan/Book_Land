@@ -8,6 +8,7 @@ using Services.Abstractions.Dto.StoreBook;
 using Services.Abstractions.Service;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
 using UI_Web.Models;
@@ -23,6 +24,7 @@ namespace UI_Web.Controllers
         UserManager<MyUser> _userManager;
         static List<StoreBookDto> booksSrch = new List<StoreBookDto>();
         static string srchWrd;
+        string tmp;
         public AdminController(ISessionService sessionService, IServiceManager serviceManager, UserManager<MyUser> userManager)
         {
             _serviceManager = serviceManager;
@@ -121,7 +123,7 @@ namespace UI_Web.Controllers
         // POST: AdminController/Create
         [HttpPost]
         [Authorize]
-        public async Task<IActionResult> Create(CreateStoreBookDto model)
+        public async Task<IActionResult> Create(CreateBook model)
         {
             if (User.Identity.Name != "admin@gmail.com")
             {
@@ -140,7 +142,7 @@ namespace UI_Web.Controllers
                 {
                     if(book.Name.ToLower() == model.Name.ToLower() && book.Authors.ToLower() == model.Authors.ToLower() && book.Genre.ToLower() == model.Genre.ToLower()
                         && book.CountPages==model.CountPages && book.PublishOffice.ToLower() == model.PublishOffice.ToLower()
-                        && book.PublishYear==model.PublishYear && book.Cost==model.Cost)
+                        && book.PublishYear==model.PublishYear && book.Cost.ToString() == model.Cost)
                     {
                         //id = book.Id;
                         k++;
@@ -155,10 +157,13 @@ namespace UI_Web.Controllers
                 }
                 else
                 {
+                    NumberFormatInfo provider = new NumberFormatInfo();
+                    provider.NumberDecimalSeparator = ".";
+                    provider.NumberGroupSeparator = ",";
                     await _serviceManager.StoreBooksService.CreateAsync(new CreateStoreBookDto
                     {
                         Authors = model.Authors,
-                        Cost = model.Cost,
+                        Cost = Convert.ToDouble(model.Cost, provider),
                         Count = model.Count,
                         CountPages = model.CountPages,
                         Genre = model.Genre,
@@ -319,7 +324,21 @@ namespace UI_Web.Controllers
             var book = await _serviceManager.StoreBooksService.GetByIdAsync(id);
             if (book != null)
             {
-                return View(book);
+                NumberFormatInfo provider = new NumberFormatInfo();
+                provider.NumberDecimalSeparator = ".";
+                provider.NumberGroupSeparator = ",";
+                return View(new EditBook
+                {
+                    Id = book.Id,
+                    Authors = book.Authors,
+                    Cost = book.Cost.ToString().Replace(',', '.').ToString(),
+                    PublishOffice = book.PublishOffice,
+                    Count = book.Count,
+                    CountPages = book.CountPages,
+                    Genre = book.Genre,
+                    Name = book.Name,
+                    PublishYear = book.PublishYear
+                });
             }
             else
             {
@@ -330,7 +349,7 @@ namespace UI_Web.Controllers
         // POST: AdminController/Edit/5
         [HttpPost]
         [Authorize]
-        public async Task<IActionResult> EditBook(StoreBookDto model)
+        public async Task<IActionResult> EditBook(EditBook model)
         {
             if (User.Identity.Name != "admin@gmail.com")
             {
@@ -349,7 +368,7 @@ namespace UI_Web.Controllers
                 {
                     if (book.Name.ToLower() == model.Name.ToLower() && book.Authors.ToLower() == model.Authors.ToLower() && book.Genre.ToLower() == model.Genre.ToLower()
                         && book.CountPages == model.CountPages && book.PublishOffice.ToLower() == model.PublishOffice.ToLower()
-                        && book.PublishYear == model.PublishYear && book.Cost == model.Cost && book.Count == model.Count)
+                        && book.PublishYear == model.PublishYear && book.Cost.ToString() == model.Cost && book.Count == model.Count)
                     {
                         k++;
                     }
@@ -363,6 +382,11 @@ namespace UI_Web.Controllers
                 }
                 else
                 {
+                    NumberFormatInfo provider = new NumberFormatInfo();
+                    provider.NumberDecimalSeparator = ".";
+                    provider.NumberGroupSeparator = ",";
+                    model.Cost = model.Cost.Replace(',', '.');
+                    double price = Convert.ToDouble(model.Cost, provider);
                     var books_cart = _sessionService.GetCartProducts(HttpContext, "cart");
                     if (books_cart != null)
                     {
@@ -390,7 +414,7 @@ namespace UI_Web.Controllers
                         Id = model.Id,
                         Name = model.Name,
                         Authors = model.Authors,
-                        Cost = model.Cost,
+                        Cost = Convert.ToDouble(model.Cost, provider),
                         Count = model.Count,
                         CountPages = model.CountPages,
                         Genre = model.Genre,
@@ -412,7 +436,18 @@ namespace UI_Web.Controllers
             var order = await _serviceManager.OrdersService.GetByIdAsync(id);
             if (order != null)
             {
-                return View(order);
+                return View(new EditOrder
+                {
+                    Id = order.Id,
+                    IsCompleted = order.IsCompleted,
+                    Adress = order.Adress,
+                    City = order.City,
+                    CountBooks = order.CountBooks,
+                    MyUserId = order.MyUserId,
+                    PostalCode = order.PostalCode,
+                    CreatedAt = order.CreatedAt,
+                    Price = order.Price.ToString()
+                });
             }
             else
             {
@@ -423,7 +458,7 @@ namespace UI_Web.Controllers
         // POST: AdminController/Edit/5
         [HttpPost]
         [Authorize]
-        public async Task<IActionResult> EditOrder(OrderDto model)
+        public async Task<IActionResult> EditOrder(EditOrder model)
         {
             if (User.Identity.Name != "admin@gmail.com")
             {
@@ -435,6 +470,11 @@ namespace UI_Web.Controllers
             }
             else
             {
+                NumberFormatInfo provider = new NumberFormatInfo();
+                provider.NumberDecimalSeparator = ".";
+                provider.NumberGroupSeparator = ",";
+                model.Price = model.Price.Replace(',', '.');
+                double price = Convert.ToDouble(model.Price, provider);
                 await _serviceManager.OrdersService.UpdateAsync(new UpdateOrderDto
                 {
                     Id = model.Id,
@@ -445,7 +485,7 @@ namespace UI_Web.Controllers
                     MyUserId = model.MyUserId,
                     PostalCode = model.PostalCode,
                     CreatedAt = model.CreatedAt,
-                    Price = model.Price
+                    Price = price
                 });
                 return RedirectToAction("IndexOrders");
             }
@@ -584,6 +624,10 @@ namespace UI_Web.Controllers
                 MyUser user = await _userManager.FindByIdAsync(model.Id);
                 if (user != null)
                 {
+                    if (user.Password != model.OldPassword)
+                    {
+                        return View("MyError", new MyErrorViewModel { Message = "Паролі не співпадають!" });
+                    }
                     IdentityResult result =
                         await _userManager.ChangePasswordAsync(user, model.OldPassword, model.NewPassword);
                     if (result.Succeeded)
@@ -602,7 +646,7 @@ namespace UI_Web.Controllers
                 }
                 else
                 {
-                    ModelState.AddModelError(string.Empty, "Пользователь не найден");
+                    ModelState.AddModelError(string.Empty, "Користувача не знайдено!");
                 }
             }
             return View(model);
