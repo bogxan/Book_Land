@@ -413,14 +413,14 @@ namespace UI_Web.Controllers
                     countBooks++;
                 }
                 model.Price = model.Price.Replace(',', '.');
-                double price = Convert.ToDouble(model.Price, provider);
+                decimal price = Convert.ToDecimal(model.Price, provider);
                 var result = await _serviceManager.OrdersService.CreateAsync(new CreateOrderDto
                 {
                     City = model.City,
                     Adress = model.Adress,
                     PostalCode = model.PostalCode,
                     MyUserId = Guid.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)),
-                    Price = price,
+                    Price = (double)price,
                     CountBooks = countBooks
                 });
                 foreach (var item in booksAll)
